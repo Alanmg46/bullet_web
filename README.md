@@ -9,9 +9,6 @@ In the project directory, you can run:
 Runs the app in the development mode.<br>
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
-
 ### `npm test`
 
 Launches the test runner in the interactive watch mode.<br>
@@ -29,5 +26,7 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 
 
 Tela final da aplicação:
+**Tela Vazia antes de adicionar um Bullet**
 ![Tela Vazia antes de adicionar um Bullet](https://i.ibb.co/1v9HCs0/tela1.png)
+**Tela após adicionar um Bullet**
 ![Tela após adicionar um Bullet](https://i.ibb.co/kBzQZnz/tela2.png)
