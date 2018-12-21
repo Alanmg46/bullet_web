@@ -25,7 +25,7 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 
 
 
-Tela final da aplicação:
+Tela final da aplicação:<br />
 **Tela Vazia antes de adicionar um Bullet**
 ![Tela Vazia antes de adicionar um Bullet](https://i.ibb.co/1v9HCs0/tela1.png)
 **Tela após adicionar um Bullet**
