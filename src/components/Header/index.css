@@ -1,0 +1,51 @@
+div.header {
+  background-color: #2eca19;
+  min-width: 320px;    
+}
+
+div.header img {
+  display: block;
+  margin: 0;
+}
+
+div.header img.logo {
+  float: left;
+  height: 70px;
+  width: 100px;
+}
+
+div.header h4.label {
+  color: #ffffff;
+  font-weight: bold;
+  line-height: 90px;
+  font-size: 40px;
+  float: left;
+  margin: 0;
+}
+div.header h5.label-credito {
+  color: #ffffff;
+  font-weight: bold;
+  line-height: 90px;
+  float: left;
+  margin: 0;
+}
+
+@media (max-width: 992px) {
+  div.header img.logo {
+      height: 78px;
+      width: 139px;
+  }
+  div.header h4.label {
+      line-height: 78px;
+  }
+}
+
+@media (max-width: 600px) {
+  div.header img.logo {
+      height: 62px;
+      width: 110px;
+  }
+  div.header h4.label {
+      line-height: 62px;
+  }
+}

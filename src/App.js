@@ -1,25 +1,29 @@
-import React, { Component } from 'react';
-import logo from './logo.svg';
+import React, {Component} from 'react';
+
 import './App.css';
 
+import Header from './components/Header';
+import CriarBullet from './components/CriarBullet';
+
 class App extends Component {
-  render() {
+  renderCriarBullet () {
+    let style = {
+      marginTop: '140px',
+      textAlign: 'center',
+    };
+
     return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
+      <div style={style}>
+        <CriarBullet />
+      </div>
+    );
+  }
+
+  render () {
+    return (
+      <div>
+        <Header />
+        {this.renderCriarBullet ()}
       </div>
     );
   }
